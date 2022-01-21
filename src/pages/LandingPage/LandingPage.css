@@ -1,0 +1,313 @@
+.white {
+    color: #fff;
+  }
+  .black {
+    color: #1d1d1f;
+  }
+  .grey {
+    color: #86868b;
+  }
+
+  /* welcom */
+  .welcome {
+    padding-bottom: 300px;
+    margin-top: 70px;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../images/home/landingPage.png");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .welcome h1 {
+    color: #1d1d1f;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  /*--- section product ---*/
+.product-grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.product-grid h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.grid-container {
+  width: 1070px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.grid-product {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.grid-product img {
+  width: 300px;
+}
+.grid-detail {
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+/*first section*/
+.first-hightlight-wrapper {
+  height: 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 65px 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* second section */
+.second-hightlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../../images/home/Christmas Board.png");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: cover;
+}
+.second-hightlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/home/Christmas Star.png");
+  background-color: #165ca9;
+  padding-top: 25px;
+  margin: 0 0 10px 0;
+}
+.links-wrapper.white li a {
+  color: #000;
+}
+.second-hightlight-wrapper .right-side-wrapper .title-wraper {
+  max-width: 380px;
+}
+
+/*third Section*/
+.third-hightlight-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #000;
+  font-size: 20px;
+}
+.third-hightlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../../images/home/Christmas-1.png");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: cover;
+}
+.third-hightlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/home/Christmas-2.png");
+  background-color: #fbfbfd;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: auto;
+}
+.third-hightlight-wrapper .description-wraper {
+  max-width: 350px;
+  margin: 7px auto;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #06c;
+}
+
+.tvshow-logo-wraper {
+  padding: 340px 0 0px;
+}
+
+/*fourth Section*/
+.fourth-hightlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../../images/home/Cable Cap.png");
+  background-color: #000;
+  padding-top: 395px;
+  margin: 0 0 10px 0;
+  
+}
+.fourth-hightlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../../images/home/Christmas Santa.png");
+  background-color: #fbfbfd;
+  padding-top: 300px;
+  margin: 0 0 10px 0;
+ 
+}
+
+.left-side-container {
+  min-height: 615px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.right-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.fourth-hightlight-wrapper .links-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.links-wrapper ul {
+  list-style: none;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+.fourth-hightlight-wrapper .description-wraper {
+  max-width: 250px;
+  margin: 7px auto;
+}
+.description-wraper.white {
+  color: #000;
+  font-size: 25px;
+}
+.links-wrapper {
+  padding: 35px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.title-wraper {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.title-wraper.bold {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.right-side-wrapper .title-wraper {
+  max-width: 280px;
+  margin: 0 auto;
+  color: #000;
+}
+.description-wrapper {
+  font-size: 36px;
+  padding: 10px 0;
+}
+
+/*Media Quer    y*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+ 
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+  /* first section */
+  .first-hightlight-wrapper {
+    min-height: 692px;
+    background-image: url("../../images/home/muzi-study.jpg");
+  }
+  .new-alert {
+    color: #bf4801;
+    font-size: 18px;
+  }
+  /*second section*/
+  .second-hightlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 10px 5px 5px 10px;
+  }
+  .second-hightlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 10px 10px 5px 5px;
+  }
+  .title-wraper.bold {
+    font-size: 56px;
+  }
+  /*third section*/
+  .third-hightlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+  }
+  .third-hightlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+  }
+  /*fourth section*/
+  .fourth-hightlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 10px 10px;
+  }
+  .fourth-hightlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 5px 10px 10px 5px;
+  }
+  .fourth-hightlight-wrapper .links-wrapper {
+    max-width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
