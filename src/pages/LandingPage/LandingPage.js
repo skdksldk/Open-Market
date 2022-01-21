@@ -71,9 +71,9 @@ function LandingPage() {
           <div className="row">
             <div className="left-side-wrapper col-sm-12 col-md-6">
               <div className="left-side-container">
-                <div className="title-wraper">Christmas Star</div>
+                <div className="title-wraper">Christmas Board</div>
                 <div className="description-wraper">
-                 I'll give you a great magic
+                 
                 </div>
                 <div className="price-wrapper">
                    Go Shopping
@@ -94,7 +94,7 @@ function LandingPage() {
             <div className="right-side-wrapper col-sm-12 col-md-6">
               <div className="right-side-container">
                 <div className="title-wraper white">
-                  Christmas Board
+                  Christmas Star
                 </div>
 
                 <div className="links-wrapper white">
