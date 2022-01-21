@@ -28,7 +28,7 @@ function LandingPage() {
 
     });
     return (
-        <div>
+        <div className="pageWrapper">
             LandingPage222
         </div>
     )

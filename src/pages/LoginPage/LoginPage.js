@@ -42,6 +42,7 @@ function LoginPage() {
         });
     };
     return (
+      <div className="pageWrapper">
         <div className="auth-wrapper">
          <h1>로그인</h1>
           <form onSubmit={handleSubmit}>
@@ -65,13 +66,14 @@ function LoginPage() {
             </p>
 
             <button type="submit">로그인</button>
-            <Link to="register" style={{ color:"gray", textDecoration: "none"}}>
+            <Link to="/register" style={{ color:"gray", textDecoration: "none"}}>
                 {" "}
                 이미 Kakao Friends ID가 없으신가요? 지금 생성
             </Link>
            </form>
         </div>
-    )
+      </div>
+    );
 }
 
 export default LoginPage;
