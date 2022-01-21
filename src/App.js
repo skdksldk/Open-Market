@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import DetailProductPage from "./pages/DetailProductPage/DetailProductPage";
 import ShoppingPage from "./pages/ShoppingPage/ShoppingPage";
 import PaymentPage from "./pages/PaymentPage/PaymentPage";
+import HistoryPage from "./pages/HistoryPage/HistoryPage";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/product/:productId" element = {<DetailProductPage />} />
       <Route path="/user/cart" element = {<ShoppingPage />} />
       <Route path="/payment" element = {<PaymentPage />} />
+      <Route path="/history" element={<HistoryPage />} />
      </Routes>
     </AuthContextProvider>
   );
