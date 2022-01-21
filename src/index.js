@@ -10,7 +10,7 @@ import clayful from "clayful/client-js";
 import axios from "axios";
 import "./css/auth.css";
 
-clayful.config({
+clayful.config({ 
   client: ''
 });
 

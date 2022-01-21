@@ -5,10 +5,6 @@
     margin: 7px 0;
 }
 
-.product-info-action: hover {
-    broder: solid 1px #86868b;
-}
-
 .quantity {
     padding-top: 10px;
     margin-right: 60px;

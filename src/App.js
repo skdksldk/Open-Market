@@ -7,6 +7,7 @@ import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import AuthContextProvider from './context/AuthContext';
 import Header from "./components/Header";
 import DetailProductPage from "./pages/DetailProductPage/DetailProductPage";
+import ShoppingPage from "./pages/ShoppingPage/ShoppingPage";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/login" element = {<LoginPage />} />
       <Route path="/register" element = {<RegisterPage />} />
       <Route path="/product/:productId" element = {<DetailProductPage />} />
+      <Route path="/user/cart" element = {<ShoppingPage />} />
      </Routes>
     </AuthContextProvider>
   );
