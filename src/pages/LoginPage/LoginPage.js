@@ -48,7 +48,7 @@ function LoginPage() {
           <form onSubmit={handleSubmit}>
             <input 
             onChange={handleEmailChange}
-            placeholder="Apple Id"
+            placeholder="Kakao Id"
             type="email" 
             name="email" 
             value={email}
